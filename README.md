@@ -3,7 +3,7 @@
 ## TODO: organize
 ## TODO: generate sexy apidoc?
 
-## `GET /api/server`
+## GET `/api/server`
 Responses: `string` (server codename)
 
 Returns the codename of the server recommended for your client to connect to.
