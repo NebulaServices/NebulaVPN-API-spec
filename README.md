@@ -15,6 +15,17 @@ Responses: `string`
 
 Returns a user-submitted MOTD for the client.
 
+## GET `/api/plan`
+Responses: 
+```
+Object {
+  type: string,
+  paid_to: integer
+}
+```
+
+Returns the current type of plan (`free`, `starter`, `advanced`), and when the plan expires (UNIX timestamp of when it will expire, `0` if the user has a `free` plan).  
+
 ## POST `/api/login`
 Responses: `string` (token), `null`
 
