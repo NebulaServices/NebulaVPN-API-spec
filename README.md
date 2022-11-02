@@ -10,6 +10,11 @@ Returns the codename of the server recommended for your client to connect to.
 
 If the user is premium, they can add the optional parameter `?location=XX`, with `XX` as a country code supported by NebulaVPN which is in their plan: `US`, `UK`, `DE`, `JP`
 
+## GET `/api/motd`
+Responses: `string`
+
+Returns a user-submitted MOTD for the client.
+
 ## POST `/api/login`
 Responses: `string` (token), `null`
 
