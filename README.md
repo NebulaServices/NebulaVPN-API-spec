@@ -16,6 +16,8 @@ Responses: `string`
 Returns a user-submitted MOTD for the client.
 
 ## GET `/api/plan`
+Parameters: `string` (token)
+
 Responses: 
 ```
 Object {
