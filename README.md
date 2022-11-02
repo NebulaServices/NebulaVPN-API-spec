@@ -29,6 +29,8 @@ Object {
 Returns the current type of plan (`free`, `starter`, `advanced`), and when the plan expires (UNIX timestamp of when it will expire, `0` if the user has a `free` plan).  
 
 ## POST `/api/login`
+Parameters: `string` (token)
+
 Responses: `string` (token), `null`
 
 Returns a token if the login was valid, and returns `null` if the login was not valid.
