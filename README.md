@@ -1,4 +1,4 @@
-# NebulaVPN API specification
+# API specification
 
 ## TODO: organize
 ## TODO: generate sexy apidoc?
